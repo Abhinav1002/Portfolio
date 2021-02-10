@@ -1,0 +1,58 @@
+ h1{
+     color:rgb(165, 126, 42)  
+        }
+        
+            .header{
+                
+                background-color : #d8818d;
+                display:flex;
+                justify-content:space-between;
+                font-size: 60;
+                font:black;
+
+            }
+            .menu{
+               margin-right: 30px; 
+            }
+            .menu a{
+                margin-left: 20px;
+            }
+            .item{
+                position:relative;
+            }
+            .item p{
+                position:absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+
+            }
+            .item:hover p{
+                opacity: 1;
+            }
+            .item:hover img{
+                opacity: 0.33;
+            }
+
+            .grid{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+
+            .footer{
+                display: flex;
+                flex-wrap: flex-end;
+                justify-content:left;
+            }
+
+            p,h2{
+                text-align: center;
+            }
+
+            body{
+                background-color: #808080
+            }
+
+    
